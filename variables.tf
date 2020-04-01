@@ -155,3 +155,8 @@ variable "nat_gateway_enabled" {
   default     = "true"
 }
 
+variable "map_public_ip_on_launch" {
+  description = "Flag to enable/disable instances recieving a public ip address on launch in the subnets when subnet is public"
+  default     = "false"
+}
+
